@@ -1,0 +1,71 @@
+.containerPortifolio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.containerPortifolio .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerPortifolio .header .title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #3d7d40;
+}
+
+.containerPortifolio .header .subTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.containerPortifolio .photos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+
+.containerPortifolio .photos .containerPhotos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.containerPortifolio .photos .containerPhotos .card {
+    height: 180px;
+    flex: 1;
+    background-color: #76482b;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.containerPortifolio .photos .containerPhotos .card2 {
+    height: 180px;
+    flex: 1;
+    background-color: #76482b;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.containerPortifolio .photos .containerPhotos .image1 {
+    height: 180px;
+    border-radius: 10px;
+}
+
+.containerPhotos>div,
+.containerPhotos>img {
+    margin: 5px;
+    /* Ajuste conforme necessário para o espaçamento */
+}
+
+/* Alinha a última linha para o flex-end */
+.containerPhotos:last-child {
+    justify-content: flex-end;
+}
