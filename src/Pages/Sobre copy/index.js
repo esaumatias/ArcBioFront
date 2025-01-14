@@ -1,9 +1,11 @@
 import React from "react";
 
-const Home = () => {
+import './Sobre.css';
+
+const Sobre = () => {
   return (
     <section>oila</section>
   );
 };
 
-export default Home;
+export default Sobre;

@@ -1,0 +1,190 @@
+.containerSobre {
+  width: 100vw;
+  background-image: url(../../Assets/textura-papel-reciclado.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerSobre .containerFundadores {
+  display: flex;
+  width: 90vw;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.containerSobre .containerFundadores .left {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.containerSobre .containerFundadores .left .title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  max-width: 500px;
+  color: #3d7d40;
+  align-self: flex-start;
+  margin-bottom: 25px;
+}
+
+.containerSobre .containerFundadores .left .subTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.containerSobre .containerFundadores .left .containerText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 530px;
+}
+
+.containerSobre .containerFundadores .left .containerText span {
+  font-size: 1.1rem;
+}
+
+.containerSobre .containerFundadores .rigth {
+  padding: 100px 50px;
+  display: flex;
+}
+
+.containerSobre .containerFundadores .rigth img {
+  width: 500px;
+  border-radius: 15px;
+  border: 3px solid #76482b;
+}
+
+.containerSobre .containerInfos {
+  width: 90vw;
+  background-color: #76482b;
+  border: 3px solid #2a1811;
+  padding: 45px 80px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.containerSobre .containerInfos .card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSobre .containerInfos .card .iconCard {
+  width: 80px;
+}
+
+.containerSobre .containerInfos .card .iconCard fill{
+  background-color: #fff;
+  color: #fff;
+}
+
+.containerSobre .containerInfos .card .titleCard {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.containerSobre .containerInfos .card .subTitleCard {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  width: 170px;
+}
+
+.containerSobre .arcBioChoiceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.containerSobre .arcBioChoiceContainer .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerSobre .arcBioChoiceContainer .header .title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  max-width: 500px;
+  color: #3d7d40;
+}
+
+.containerSobre .arcBioChoiceContainer .header .subTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.containerSobre .arcBioChoiceContainer .content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.containerSobre .arcBioChoiceContainer .content .imageCasa {
+  width: 500px;
+  height: 380px;
+  border-radius: 15px;
+  border: 3px solid #76482b;
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .card img {
+  width: 40px;
+  transform: scaleX(-1);
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .card .containerText {
+  max-width: 450px;
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .card .containerText .title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #3d7d40;
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .card .containerText .subTitle {
+  font-size: 1.1rem;
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .buttonCard {
+  background-color: #3d7d40;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 25px;
+  cursor: pointer;
+}
