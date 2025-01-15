@@ -1,7 +1,7 @@
 .containerClientes {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     width: 100vw;
     background-image: url(../../Assets/textura-papel-reciclado.png);
     background-position: center;

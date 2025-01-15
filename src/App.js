@@ -6,6 +6,7 @@ import Servicos from "./Pages/Servicos";
 
 import "./App.css";
 import Clientes from "./Pages/Clientes";
+import Footer from "./Pages/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Portifolio />
       <Servicos />
       <Clientes />
+      <Footer />
     </div>
   );
 };
