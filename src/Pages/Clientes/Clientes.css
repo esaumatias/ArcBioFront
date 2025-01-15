@@ -1,0 +1,125 @@
+.containerClientes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    width: 100vw;
+    background-image: url(../../Assets/textura-papel-reciclado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerClientes .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.containerClientes .header .title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #3d7d40;
+}
+
+.containerClientes .header .subTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.containerClientes .containerCards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.containerClientes .containerCards .card {
+    width: 400px;
+    border: 2px solid #734a2b;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.containerClientes .containerCards .card .text {
+    font-weight: 500;
+}
+
+.containerClientes .containerCards .card .name {
+    font-weight: 700;
+    color: #3d7d40;
+    margin-top: 20px;
+}
+
+.containerClientes .containerCards .card .local {
+    font-weight: 500;
+}
+
+.containerClientes .containerFundadores {
+    display: flex;
+    /* width: 90vw; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .containerClientes .containerFundadores .left {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+  }
+  
+  .containerClientes .containerFundadores .left .title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    max-width: 500px;
+    color: #3d7d40;
+    align-self: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .containerClientes .containerFundadores .left .subTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    align-self: flex-start;
+  }
+  
+  .containerClientes .containerFundadores .left .containerText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+  }
+  
+  .containerClientes .containerFundadores .left .containerText span {
+    font-size: 1.1rem;
+  }
+  
+  .containerClientes .containerFundadores .rigth {
+    padding: 100px 50px;
+    display: flex;
+  }
+  
+  .containerClientes .containerFundadores .rigth img {
+    width: 600px;
+    border-radius: 15px;
+    border: 3px solid #76482b;
+  }
+
+  .containerClientes .containerFundadores .left .buttonCard {
+    background-color: #3d7d40;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    width: 300px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+    align-self: flex-start;
+  }

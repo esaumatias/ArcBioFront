@@ -5,6 +5,7 @@ import Portifolio from "./Pages/Portifolio";
 import Servicos from "./Pages/Servicos";
 
 import "./App.css";
+import Clientes from "./Pages/Clientes";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Sobre />
       <Portifolio />
       <Servicos />
+      <Clientes />
     </div>
   );
 };
