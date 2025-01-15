@@ -1,8 +1,10 @@
 import React from "react";
 import Home from "./Pages/Home";
-import "./App.css";
 import Sobre from "./Pages/Sobre";
 import Portifolio from "./Pages/Portifolio";
+import Servicos from "./Pages/Servicos";
+
+import "./App.css";
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
       <Home />
       <Sobre />
       <Portifolio />
+      <Servicos />
     </div>
   );
 };

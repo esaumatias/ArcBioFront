@@ -1,0 +1,76 @@
+.containerServicos {
+    width: 100vw;
+    /* padding: 100px 50px; */
+    background-image: url(../../Assets/textura-folhas-degradê.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerServicos .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.containerServicos .header .title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.containerServicos .header .subTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.containerServicos .containerCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.containerServicos .containerCard .card1,
+.containerServicos .containerCard .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.containerServicos .containerCard .card1 .title,
+.containerServicos .containerCard .card2 .title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    width: 160px;
+}
+
+.containerServicos .containerCard .card1 .subTitle,
+.containerServicos .containerCard .card2 .subTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    width: 180px;
+}
+
+.containerServicos .containerCard .card1 .line {
+    width: 40px;
+    height: 5px;
+    background-color: #3f7a43;
+    margin-top: 10px;
+}
+
+.containerServicos .containerCard .card2 {
+    padding: 30px;
+    background-color: #3f7a43;
+    border: 2px solid #2d1611;
+    border-radius: 15px;
+}
