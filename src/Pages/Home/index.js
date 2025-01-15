@@ -1,5 +1,5 @@
 import React from "react";
-
+import MobileMenu from "../../Components/MobileMenu";
 import logo from "../../Assets/Logo branca sem contorno.png";
 
 import "./Home.css";
@@ -12,23 +12,25 @@ const Home = () => {
 
         <nav className="nav">
           <ul className="ul">
-            <li className="li">
+            <li className="li" style={{width: '80px'}}>
               <a href="#Serviços" className="link">
                 Serviços
               </a>
             </li>
-            <li className="li">
+            <li className="li"style={{width: '80px'}}>
               <a href="#Portfólio" className="link">
                 Portfólio
               </a>
             </li>
-            <li className="li">
+            <li className="li"style={{width: '165px'}}>
               <a href="#Entre em contato" className="link">
                 Entre em contato
               </a>
             </li>
           </ul>
         </nav>
+
+        <MobileMenu />
       </header>
 
       <section className="content">

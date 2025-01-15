@@ -1,0 +1,94 @@
+/* Contêiner principal */
+.menu-container {
+    position: relative;
+    z-index: 1000;
+}
+
+/* Ícone do menu (três linhas) */
+.menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30px;
+}
+
+.menu-line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.menuX {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuX .line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+.menuX .line1 {
+    transform: rotate(45deg);
+}
+
+.menuX .line2 {
+    transform: rotate(-45deg);
+}
+
+.menu-icon .menu-line {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-icon:hover .menu-line {
+    opacity: 0.8;
+}
+
+.menuX .line {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Dropdown do menu */
+.menu-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 142px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-dropdown a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu-dropdown a:hover {
+    text-decoration: underline;
+}
+
+.menu-container {
+    display: none;
+}
+
+@media screen and (max-width: 702px) {
+    .menu-container {
+        display: flex;
+    }
+}

@@ -178,7 +178,7 @@
   font-size: 1.1rem;
 }
 
-.containerSobre .arcBioChoiceContainer .content .containerCard .buttonCard {
+.containerSobre .arcBioChoiceContainer .content .containerCard .buttonCard  {
   background-color: #3d7d40;
   padding: 10px 20px;
   border: none;
@@ -186,6 +186,12 @@
   width: 300px;
   font-size: 18px;
   color: #fff;
-  margin-top: 25px;
+  margin-top: 35px;
   cursor: pointer;
+  font-family: "Montserrat", serif !important;
+  transition: transform 0.3s ease; 
+}
+
+.containerSobre .arcBioChoiceContainer .content .containerCard .buttonCard:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
 }

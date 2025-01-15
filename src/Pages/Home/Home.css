@@ -16,7 +16,7 @@
 
 .containerHome .headerMenu {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   width: 90vw;
   padding-top: 70px;
@@ -34,10 +34,17 @@
   padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .containerHome .li {
   margin: 0 15px;
+  /* width: 170px; */
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #3d7d40; */
 }
 
 .containerHome .link {
@@ -49,8 +56,8 @@
 
 .containerHome .link:hover {
   /* text-decoration: underline; */
-  color: #346732;
-  font-weight: 500;
+  /* color: #346732; */
+  font-weight: 700;
 }
 
 .containerHome .section {
@@ -88,4 +95,30 @@
   color: #fff;
   margin-top: 35px;
   cursor: pointer;
+  font-family: "Montserrat", serif !important;
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.containerHome .buttonHome:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+@media screen and (max-width: 702px) {
+  .containerHome .nav {
+    display: none;
+  }
+
+  .containerHome .content {
+    width: 80vw;
+  }
+
+  .containerHome .content h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  .containerHome .content .subTitle {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 }
