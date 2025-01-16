@@ -15,11 +15,13 @@
     font-size: 2.2rem;
     font-weight: 700;
     color: #3d7d40;
+    text-align: center;
 }
 
 .containerPortifolio .header .subTitle {
     font-size: 1.4rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .containerPortifolio .photos {
@@ -57,7 +59,14 @@
 .containerPortifolio .photos .containerPhotos .image1 {
     height: 180px;
     border-radius: 10px;
+    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona a sombra */
+    transition: transform 0.3s ease; /* Suaviza o efeito de hover */
 }
+
+.containerPortifolio .photos .containerPhotos .image1:hover {
+    transform: scale(1.05); /* Aumenta levemente no hover */
+  }
 
 .containerPhotos>div,
 .containerPhotos>img {
@@ -68,4 +77,42 @@
 /* Alinha a última linha para o flex-end */
 .containerPhotos:last-child {
     justify-content: flex-end;
+}
+
+@media screen and (max-width: 667px) {    
+    .containerPortifolio .header .title {
+        font-size: 1.8rem;
+        text-align: center;
+        width: 90vw;
+    }
+    
+    .containerPortifolio .header .subTitle {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 90vw;
+    }
+    
+    .containerPortifolio .photos {
+        margin-top: 40px;
+    }
+    
+    
+    .containerPortifolio .photos .containerPhotos {
+        gap: 0px;
+    }
+    
+    .containerPortifolio .photos .containerPhotos .card {
+        display: none;
+    }
+    
+    .containerPortifolio .photos .containerPhotos .card2 {
+        display: none;
+    }
+    
+    
+    .containerPortifolio .photos .containerPhotos .image1 {
+        height: auto;
+        width: 47%;
+        border-radius: 10px;
+    }
 }

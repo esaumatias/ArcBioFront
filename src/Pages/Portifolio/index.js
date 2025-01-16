@@ -48,36 +48,7 @@ const Portifolio = () => {
           <img src={image16} alt="casa de alto padrão" className="image1"/>
           <div className="card2"></div>
         </div>
-
-        {/* <div className="containerPhotos" style={{ marginLeft: '100px'}}>
-          <img src={image3} alt="casa de alto padrão" className="image2"/>
-          <img src={image4} alt="casa de alto padrão" className="image2"/>
-          <img src={image5} alt="casa de alto padrão" className="image2"/>
-        </div>
-
-        <div className="containerPhotos" style={{ alignSelf: 'flex-end', marginRight: '50px'}}>
-          <img src={image6} alt="casa de alto padrão" className="image1"/>
-          <img src={image7} alt="casa de alto padrão" className="image1"/>
-          <img src={image8} alt="casa de alto padrão" className="image1"/>
-          <img src={image9} alt="casa de alto padrão" className="image1"/>
-        </div>
-
-        <div className="containerPhotos" style={{ marginLeft: '70px'}}>
-          <img src={image10} alt="casa de alto padrão" className="image1"/>
-          <img src={image11} alt="casa de alto padrão" className="image1"/>
-          <img src={image12} alt="casa de alto padrão" className="image1"/>
-          <img src={image13} alt="casa de alto padrão" className="image1"/>
-        </div>
-
-        <div className="containerPhotos" style={{ alignSelf: 'flex-end'}}>
-          <img src={image14} alt="casa de alto padrão" className="image1"/>
-          <img src={image15} alt="casa de alto padrão" className="image1"/>
-          <img src={image16} alt="casa de alto padrão" className="image1"/>
-          <div className="card2"></div>
-        </div> */}
       </div>
-
-
     </section>
   );
 };
