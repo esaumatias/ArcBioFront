@@ -1,8 +1,8 @@
 .containerServicos {
     width: 100vw;
     /* padding: 100px 50px; */
-    background-image: url(../../Assets/textura-folhas-degradê.png);
-    background-size: cover;
+    background-image: url(../../Assets/textura-folhas.png);
+    background-size: '100% 100%';
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -73,4 +73,31 @@
     background-color: #3f7a43;
     border: 2px solid #2d1611;
     border-radius: 15px;
+}
+
+@media screen and (max-width: 667px) {
+   
+    .containerServicos .header .title {
+        font-size: 2rem;
+    }
+    
+    .containerServicos .header .subTitle {
+        font-size: 1.2rem;
+    }
+    
+    .containerServicos .containerCard .card1 .title,
+    .containerServicos .containerCard .card2 .title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #fff;
+        width: 160px;
+    }
+    
+    .containerServicos .containerCard .card1 .line {
+        margin-top: 0px;
+    }
+    
+    .containerServicos .containerCard .card2 {
+        padding: 25px;
+    }
 }
