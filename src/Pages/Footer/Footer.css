@@ -109,6 +109,7 @@
 
     .mobile {
         display: flex;
+        margin-bottom: 60px;
     }
     
     .containerFooter {

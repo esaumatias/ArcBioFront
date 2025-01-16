@@ -58,28 +58,32 @@ const Sobre = () => {
             </div>
           </FadeInOnScroll>
         </div>
-        <FadeInOnScroll>
-          <div className="containerInfos">
+        <div className="containerInfos">
+          <FadeInOnScroll>
             <div className="card">
               <div className="titleCard">+12</div>
               <div className="subTitleCard">anos de experiência no mercado</div>
             </div>
-            <div className="line"></div>
+          </FadeInOnScroll>
+          <div className="line"></div>
+          <FadeInOnScroll>
             <div className="card">
               <img src={iconCasa} alt="" className="iconCard" />
               <div className="subTitleCard">
                 Consultoria e execução integradas
               </div>
             </div>
-            <div className="line"></div>
+          </FadeInOnScroll>
+          <div className="line"></div>
+          <FadeInOnScroll>
             <div className="card">
               <img src={iconBrasil} alt="" className="iconCard" />
               <div className="subTitleCard">
                 Projetos realizados em todo o Brasil
               </div>
             </div>
-          </div>
-        </FadeInOnScroll>
+          </FadeInOnScroll>
+        </div>
       </div>
 
       <div className="arcBioChoiceContainer">

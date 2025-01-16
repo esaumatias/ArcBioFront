@@ -40,9 +40,6 @@ const FadeInOnScroll = ({ children }) => {
   // Definindo a animação com react-spring
   const fadeInStyle = useSpring({
     opacity: hasAnimated ? 1 : 0,
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
     transform: hasAnimated ? 'translateY(0)' : 'translateY(50px)',
     config: { tension: 250, friction: 25 }, // Você pode ajustar para o efeito desejado
   });
