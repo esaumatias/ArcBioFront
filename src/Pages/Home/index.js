@@ -3,6 +3,7 @@ import MobileMenu from "../../Components/MobileMenu";
 import logo from "../../Assets/Logo branca sem contorno.png";
 
 import "./Home.css";
+import FadeInOnScroll from "../../Components/FadeInOnScroll";
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
 
         <MobileMenu />
       </header>
-
+      <FadeInOnScroll>
       <section className="content">
         <h1>
           Arquitetura Sustentável e Exclusiva para Hotéis, Pousadas e
@@ -46,6 +47,7 @@ const Home = () => {
 
         <button className="buttonHome">Solicitar Reunião</button>
       </section>
+      </FadeInOnScroll >
     </section>
   );
 };

@@ -2,6 +2,7 @@ import React from "react";
 import imageCasal from "../../Assets/fundadores-arcbio-fabio-inaimo-cristina-lapas-02.png";
 
 import "./Clientes.css";
+import FadeInOnScroll from "../../Components/FadeInOnScroll";
 
 const depoiments = [
   {
@@ -24,38 +25,47 @@ const depoiments = [
 const Clientes = () => {
   return (
     <section className="containerClientes">
-      <div className="header">
-        <div className="subTitle">O que nossos</div>
-        <div className="title">clientes dizem</div>
-      </div>
+      <FadeInOnScroll>
+        <div className="header">
+          <div className="subTitle">O que nossos</div>
+          <div className="title">clientes dizem</div>
+        </div>
+      </FadeInOnScroll>
 
-      <div className="containerCards">
-        {depoiments.map((item, idx) => (
-          <div className="card" key={idx}>
-            <div className="text">{item.text}</div>
-            <div className="name">{item.name}</div>
-            <div className="local">{item.local}</div>
-          </div>
-        ))}
-      </div>
+      <FadeInOnScroll>
+        <div className="containerCards">
+          {depoiments.map((item, idx) => (
+            <div className="card" key={idx}>
+              <div className="text">{item.text}</div>
+              <div className="name">{item.name}</div>
+              <div className="local">{item.local}</div>
+            </div>
+          ))}
+        </div>
+      </FadeInOnScroll>
 
       <div className="containerFundadores">
-        <div className="left">
-          <div className="subTitle">Vamos criar algo</div>
-          <div className="title">memorável juntos?</div>
-          <div className="containerText">
-            <span>
-            <strong>Dê o próximo passo</strong> para transformar seu empreendimento ou
-              residência. <strong>Entre em contato com nossa equipe</strong> e descubra como
-              podemos criar um espaço único para você.
-            </span>
+        <FadeInOnScroll>
+          <div className="left">
+            <div className="subTitle">Vamos criar algo</div>
+            <div className="title">memorável juntos?</div>
+            <div className="containerText">
+              <span>
+                <strong>Dê o próximo passo</strong> para transformar seu
+                empreendimento ou residência.{" "}
+                <strong>Entre em contato com nossa equipe</strong> e descubra
+                como podemos criar um espaço único para você.
+              </span>
+            </div>
+            <button className="buttonCard">Solicitar Reunião</button>
           </div>
-          <button className="buttonCard">Solicitar Reunião</button>
-        </div>
+        </FadeInOnScroll>
 
-        <div className="rigth">
-          <img src={imageCasal} alt="Imagem dos fundadores" />
-        </div>
+        <FadeInOnScroll>
+          <div className="rigth">
+            <img src={imageCasal} alt="Imagem dos fundadores" />
+          </div>
+        </FadeInOnScroll>
       </div>
     </section>
   );
