@@ -71,14 +71,14 @@
 .containerServicos .containerCard .card2 {
     padding: 30px;
     background-color: #3f7a43;
-    border: 2px solid #2d1611;
+    border: 2px solid #2a1710;
     border-radius: 15px;
 }
 
 @media screen and (max-width: 667px) {
    
     .containerServicos .header .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .containerServicos .header .subTitle {

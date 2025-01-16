@@ -40,7 +40,7 @@ const Home = () => {
         </h1>
 
         <div className="subTitle">
-          <strong>Projetos de alto padrão</strong> que harmonizam estética rústica e
+          <strong style={{ color: '#fff'}}>Projetos de alto padrão</strong> que harmonizam estética rústica e
           funcionalidade em harmonia com a natureza.
         </div>
 

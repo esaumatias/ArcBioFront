@@ -25,6 +25,7 @@
 .containerClientes .header .subTitle {
   font-size: 1.4rem;
   font-weight: 700;
+  color: #2a1710;
 }
 
 .containerClientes .containerCards {
@@ -70,7 +71,7 @@
   padding: 100px 50px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
   align-items: flex-end;
 }
 
@@ -87,6 +88,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   align-self: flex-start;
+  color: #2a1710;
 }
 
 .containerClientes .containerFundadores .left .containerText {
@@ -130,6 +132,9 @@
   /* Aumenta o tamanho em 10% */
 }
 
+.containerClientes strong {
+  color: #2a1710;
+}
 
 @media screen and (max-width: 1199px) {
   .containerClientes .containerFundadores .left .title {
@@ -194,7 +199,7 @@
   }
 
   .containerClientes .containerFundadores .left .title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .containerClientes .containerFundadores .left .subTitle {
@@ -222,7 +227,7 @@
   }
 
   .containerClientes .header .title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .containerClientes .header .subTitle {

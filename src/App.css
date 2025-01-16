@@ -5,6 +5,11 @@ body, html {
   overflow: hidden; /* Remove o scroll na página inteira */
 }
 
+body strong,
+body .subTitle {
+  /* color: #2a1710 !important; */
+}
+
 .App {
   width: 100vw;
   height: 100vh;

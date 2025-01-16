@@ -22,6 +22,7 @@
     font-size: 1.4rem;
     font-weight: 700;
     text-align: center;
+    color: #2a1710;
 }
 
 .containerPortifolio .photos {
@@ -81,7 +82,7 @@
 
 @media screen and (max-width: 667px) {    
     .containerPortifolio .header .title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: center;
         width: 90vw;
     }
