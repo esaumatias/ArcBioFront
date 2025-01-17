@@ -25,8 +25,8 @@ const useOnScreen = (ref) => {
   return isVisible;
 };
 
-// Componente para animação de fade-in que ocorre apenas uma vez
-const FadeInOnScroll = ({ children }) => {
+// Componente para animação de fade-in com atraso
+const FadeInOnScroll = ({ children, delay = 0 }) => {
   const ref = React.useRef();
   const isVisible = useOnScreen(ref);
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -41,7 +41,8 @@ const FadeInOnScroll = ({ children }) => {
   const fadeInStyle = useSpring({
     opacity: hasAnimated ? 1 : 0,
     transform: hasAnimated ? 'translateY(0)' : 'translateY(50px)',
-    config: { tension: 250, friction: 25 }, // Você pode ajustar para o efeito desejado
+    config: { tension: 120, friction: 30 },
+    delay: hasAnimated ? delay : 0, // Atraso condicional para sincronizar animações
   });
 
   return (

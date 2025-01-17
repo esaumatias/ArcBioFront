@@ -17,6 +17,7 @@ body .subTitle {
   -ms-overflow-style: none; /* Para IE 10+ */
   scrollbar-width: none; /* Para Firefox */
   font-family: "Montserrat", serif !important;
+  position: relative;
 }
 
 .App::-webkit-scrollbar {

@@ -25,12 +25,14 @@ const depoiments = [
 const Clientes = () => {
   return (
     <section className="containerClientes">
-      <FadeInOnScroll>
-        <div className="header">
+      <div className="header">
+        <FadeInOnScroll>
           <div className="subTitle">O que nossos</div>
+        </FadeInOnScroll>
+        <FadeInOnScroll>
           <div className="title">clientes dizem</div>
-        </div>
-      </FadeInOnScroll>
+        </FadeInOnScroll>
+      </div>
 
       <div className="containerCards">
         {depoiments.map((item, idx) => (
@@ -47,17 +49,40 @@ const Clientes = () => {
       <div className="containerFundadores">
         <FadeInOnScroll>
           <div className="left">
-            <div className="subTitle">Vamos criar algo</div>
-            <div className="title">memorável juntos?</div>
+            <FadeInOnScroll>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <div className="subTitle">Vamos criar algo</div>
+              </div>
+            </FadeInOnScroll>
+            <FadeInOnScroll>
+              <div className="title">memorável juntos?</div>
+            </FadeInOnScroll>
+            <img src={imageCasal} alt="Imagem dos fundadores" />
             <div className="containerText">
-              <span>
-                <strong>Dê o próximo passo</strong> para transformar seu
-                empreendimento ou residência.{" "}
-                <strong>Entre em contato com nossa equipe</strong> e descubra
-                como podemos criar um espaço único para você.
-              </span>
+              <FadeInOnScroll>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <span>
+                    <strong>Dê o próximo passo</strong> para transformar seu
+                    empreendimento ou residência.{" "}
+                    <strong>Entre em contato com nossa equipe</strong> e
+                    descubra como podemos criar um espaço único para você.
+                  </span>
+                </div>
+              </FadeInOnScroll>
             </div>
-            <button className="buttonCard">Solicitar Reunião</button>
+            <FadeInOnScroll>
+              <button
+                className="buttonCard"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send/?phone=558432464285&text=Ol%C3%A1%2C+ArcBio%21+Quero+saber+mais+sobre+seus+projetos+exclusivos+e+servi%C3%A7os.+Poderiam+me+ajudar%3F&type=phone_number&app_absent=0",
+                    "_blank"
+                  )
+                }
+              >
+                Solicitar Reunião
+              </button>
+            </FadeInOnScroll>
           </div>
         </FadeInOnScroll>
 

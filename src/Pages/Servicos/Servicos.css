@@ -36,6 +36,7 @@
     margin-top: 50px;
     gap: 50px;
     margin-bottom: 150px;
+
 }
 
 .containerServicos .containerCard .card1,
@@ -76,15 +77,15 @@
 }
 
 @media screen and (max-width: 667px) {
-   
+
     .containerServicos .header .title {
         font-size: 1.8rem;
     }
-    
+
     .containerServicos .header .subTitle {
         font-size: 1.2rem;
     }
-    
+
     .containerServicos .containerCard .card1 .title,
     .containerServicos .containerCard .card2 .title {
         font-size: 1.1rem;
@@ -92,12 +93,22 @@
         color: #fff;
         width: 160px;
     }
-    
+
     .containerServicos .containerCard .card1 .line {
         margin-top: 0px;
     }
-    
+
     .containerServicos .containerCard .card2 {
         padding: 25px;
     }
+
+    .containerServicos .header {
+        margin-top: 80px;
+    }
+
+    .containerServicos .containerCard {
+        margin-bottom: 80px;
+
+    }
+
 }

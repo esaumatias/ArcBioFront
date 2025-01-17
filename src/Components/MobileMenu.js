@@ -34,9 +34,18 @@ const MobileMenu = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
         >
-          <a href="#section1">Serviços</a>
-          <a href="#section2">Portfólio</a>
-          <a href="#section3">Entre em contato</a>
+          <a href="#Serviços">Serviços</a>
+          <a href="#Portfólio">Portfólio</a>
+          <a
+            onClick={() =>
+              window.open(
+                "https://api.whatsapp.com/send/?phone=558432464285&text=Ol%C3%A1%2C+ArcBio%21+Quero+saber+mais+sobre+seus+projetos+exclusivos+e+servi%C3%A7os.+Poderiam+me+ajudar%3F&type=phone_number&app_absent=0",
+                "_blank"
+              )
+            }
+          >
+            Entre em contato
+          </a>
         </motion.div>
       )}
     </div>
