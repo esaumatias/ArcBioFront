@@ -65,7 +65,9 @@ const Sobre = () => {
               <div className="subTitleCard">anos de experiência no mercado</div>
             </div>
           </FadeInOnScroll>
-          <div className="line"></div>
+          <FadeInOnScroll>
+            <div className="line"></div>
+          </FadeInOnScroll>
           <FadeInOnScroll>
             <div className="card">
               <img src={iconCasa} alt="" className="iconCard" />
@@ -74,7 +76,9 @@ const Sobre = () => {
               </div>
             </div>
           </FadeInOnScroll>
-          <div className="line"></div>
+          <FadeInOnScroll>
+            <div className="line"></div>
+          </FadeInOnScroll>
           <FadeInOnScroll>
             <div className="card">
               <img src={iconBrasil} alt="" className="iconCard" />
@@ -101,6 +105,7 @@ const Sobre = () => {
               className="imageCasa"
             />
             <div className="containerCard">
+            <FadeInOnScroll>
               <div className="card">
                 <img src={iconFolha} alt="icone folha" />
                 <div className="containerText">
@@ -111,7 +116,8 @@ const Sobre = () => {
                   </div>
                 </div>
               </div>
-
+            </FadeInOnScroll>
+            <FadeInOnScroll>
               <div className="card">
                 <img src={iconFolha} alt="icone folha" />
                 <div className="containerText">
@@ -121,7 +127,8 @@ const Sobre = () => {
                   </div>
                 </div>
               </div>
-
+            </FadeInOnScroll>
+            <FadeInOnScroll>
               <div className="card">
                 <img src={iconFolha} alt="icone folha" />
                 <div className="containerText">
@@ -132,8 +139,11 @@ const Sobre = () => {
                   </div>
                 </div>
               </div>
-
+            </FadeInOnScroll>
+            <FadeInOnScroll>
               <button className="buttonCard">Solicitar Reunião</button>
+            </FadeInOnScroll>
+
             </div>
           </div>
         </FadeInOnScroll>

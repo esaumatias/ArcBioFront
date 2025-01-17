@@ -32,17 +32,17 @@ const Clientes = () => {
         </div>
       </FadeInOnScroll>
 
-      <FadeInOnScroll>
-        <div className="containerCards">
-          {depoiments.map((item, idx) => (
-            <div className="card" key={idx}>
+      <div className="containerCards">
+        {depoiments.map((item, idx) => (
+          <div className="card" key={idx}>
+            <FadeInOnScroll>
               <div className="text">{item.text}</div>
               <div className="name">{item.name}</div>
               <div className="local">{item.local}</div>
-            </div>
-          ))}
-        </div>
-      </FadeInOnScroll>
+            </FadeInOnScroll>
+          </div>
+        ))}
+      </div>
 
       <div className="containerFundadores">
         <FadeInOnScroll>

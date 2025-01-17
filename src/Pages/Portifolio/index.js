@@ -12,9 +12,7 @@ const Portifolio = () => {
           <div className="subTitle">Projetos que transformam</div>
           <div className="title">espaços em destinos únicos</div>
         </div>
-      </FadeInOnScroll>
 
-      <FadeInOnScroll>
         <div className="photos">
           <div className="containerPhotos">
             <div className="card"></div>

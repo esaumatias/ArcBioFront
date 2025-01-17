@@ -15,31 +15,41 @@ const Servicos = () => {
 
       <FadeInOnScroll>
         <div className="containerCard">
-          <div className="card1">
-            <div className="line"></div>
-            <div className="title">Consultoria Imobiliária</div>
-            <div className="subTitle">Escolha do terreno ou imóvel ideal</div>
-          </div>
-
-          <div className="card2">
-            <div className="title">Projetos Arquitetônicos e de Interiores</div>
-            <div className="subTitle">Personalizados para cada cliente.</div>
-          </div>
-
-          <div className="card1">
-            <div className="line"></div>
-            <div className="title">Gerenciamento de Obras</div>
-            <div className="subTitle">
-              Acompanhamento completo para garantir qualidade e eficiência.
+          <FadeInOnScroll>
+            <div className="card1">
+              <div className="line"></div>
+              <div className="title">Consultoria Imobiliária</div>
+              <div className="subTitle">Escolha do terreno ou imóvel ideal</div>
             </div>
-          </div>
+          </FadeInOnScroll>
 
-          <div className="card2">
-            <div className="title">Gestão de Rentabilização de Imóveis</div>
-            <div className="subTitle">
-              Estratégias para valorizar e rentabilizar propriedades.
+          <FadeInOnScroll>
+            <div className="card2">
+              <div className="title">
+                Projetos Arquitetônicos e de Interiores
+              </div>
+              <div className="subTitle">Personalizados para cada cliente.</div>
             </div>
-          </div>
+          </FadeInOnScroll>
+
+          <FadeInOnScroll>
+            <div className="card1">
+              <div className="line"></div>
+              <div className="title">Gerenciamento de Obras</div>
+              <div className="subTitle">
+                Acompanhamento completo para garantir qualidade e eficiência.
+              </div>
+            </div>
+          </FadeInOnScroll>
+
+          <FadeInOnScroll>
+            <div className="card2">
+              <div className="title">Gestão de Rentabilização de Imóveis</div>
+              <div className="subTitle">
+                Estratégias para valorizar e rentabilizar propriedades.
+              </div>
+            </div>
+          </FadeInOnScroll>
         </div>
       </FadeInOnScroll>
     </section>
