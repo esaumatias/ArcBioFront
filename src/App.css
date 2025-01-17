@@ -10,6 +10,14 @@ body .subTitle {
   /* color: #2a1710 !important; */
 }
 
+body img {
+  /* pointer-events: none; */
+  /* Bloqueia interações com a imagem */
+  -webkit-user-drag: none;
+  /* Bloqueia arrastar no WebKit */
+}
+
+
 .App {
   width: 100vw;
   height: 100vh;
