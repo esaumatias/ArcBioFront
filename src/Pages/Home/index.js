@@ -24,12 +24,16 @@ const Home = () => {
               </a>
             </li>
             <li className="li" style={{ width: "165px" }}>
-              <a href="#Entre em contato" className="link" onClick={() =>
-      window.open(
-        "https://api.whatsapp.com/send/?phone=558432464285&text=Ol%C3%A1%2C+ArcBio%21+Quero+saber+mais+sobre+seus+projetos+exclusivos+e+servi%C3%A7os.+Poderiam+me+ajudar%3F&type=phone_number&app_absent=0",
-        "_blank"
-      )
-    }>
+              <a
+                href="#Entre em contato"
+                className="link"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send/?phone=558432464285&text=Ol%C3%A1%2C+ArcBio%21+Quero+saber+mais+sobre+seus+projetos+exclusivos+e+servi%C3%A7os.+Poderiam+me+ajudar%3F&type=phone_number&app_absent=0",
+                    "_blank"
+                  )
+                }
+              >
                 Entre em contato
               </a>
             </li>

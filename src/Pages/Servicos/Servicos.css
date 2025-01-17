@@ -74,6 +74,7 @@
     background-color: #3f7a43;
     border: 2px solid #2a1710;
     border-radius: 15px;
+    min-height: 185px;
 }
 
 @media screen and (max-width: 667px) {

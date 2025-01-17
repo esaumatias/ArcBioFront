@@ -35,18 +35,29 @@ const Servicos = () => {
           <FadeInOnScroll>
             <div className="card1">
               <div className="line"></div>
-              <div className="title">Gerenciamento de Obras</div>
+              <div className="title">Gestão de Rentabilização de Imóveis</div>
               <div className="subTitle">
-                Acompanhamento completo para garantir qualidade e eficiência.
+                Estratégias para valorizar e rentabilizar propriedades.
               </div>
             </div>
           </FadeInOnScroll>
 
           <FadeInOnScroll>
             <div className="card2">
-              <div className="title">Gestão de Rentabilização de Imóveis</div>
+              <div className="title">Licenciamento ambiental</div>
               <div className="subTitle">
-                Estratégias para valorizar e rentabilizar propriedades.
+                Assessoria especializada para obter as licenças necessárias e
+                garantir a conformidade ambiental dos projetos.
+              </div>
+            </div>
+          </FadeInOnScroll>
+
+          <FadeInOnScroll>
+            <div className="card1">
+              <div className="line"></div>
+              <div className="title">Gerenciamento de Obras</div>
+              <div className="subTitle">
+                Acompanhamento completo para garantir qualidade e eficiência.
               </div>
             </div>
           </FadeInOnScroll>
