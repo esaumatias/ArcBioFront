@@ -9,8 +9,8 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 30px;
+    gap: 8px;
+    width: 24px;
 }
 
 .menu-line {
@@ -22,8 +22,8 @@
 
 .menuX {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
